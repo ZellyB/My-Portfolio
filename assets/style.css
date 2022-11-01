@@ -1,0 +1,31 @@
+.header {
+    padding: 10px;
+    color: rgb(255, 132, 32);
+    background-color: rgb(113, 115, 114);
+}
+
+.logo {
+    float: left;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 55px;
+    font-style: italic;
+}
+
+.header div {
+    padding-top: 05px;
+    margin-right: 30px;
+    float: right;
+    font-size: 25px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    font-style: italic;
+}
