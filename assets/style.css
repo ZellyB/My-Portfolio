@@ -1,11 +1,7 @@
 .header {
     padding: 10px;
-    color: rgb(255, 132, 32);
-    background-color: rgb(113, 115, 114);
-}
-
-.logo {
-    float: left;
+    color:#999900;
+    background-color: black;
 }
 
 .header h1 {
@@ -22,10 +18,43 @@
 }
 
 .header div ul {
-    list-style-type: none;
+    list-style-type: horiz;
 }
 
 .header div ul li {
     display: inline-block;
     font-style: italic;
 }
+
+.hero {
+    height: 100px;
+    width: 20%;
+    background-image: url("../assets/photos/selfie.jpg");
+    background-position: center;
+}
+
+section {
+    width: 90%;
+    height: 500px;
+    margin: 0px auto;
+    border-bottom: 5px; color: #999900;
+    background-color: black;
+}
+
+.box-style {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+section div ul li {
+    text-align: center;
+}
+
+section p {
+    text-align: center;
+}
+
