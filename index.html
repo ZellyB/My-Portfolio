@@ -4,6 +4,8 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/style.css">
     <title>My Portfolio</title>
 </head>
@@ -13,26 +15,36 @@
         <h1>Kelly The Aspiring Developer</h1> 
         <div>
             <ul>
-                <li> <a href="About Me"></a> About Me </li>
+                <li> 
+                    <a href="#About-Me">About Me</a> 
+                </li>
                
-                <li>Previous Work</li>
-               
-                <li>Resume</li>
-               
-                <li>Contact Me</li>
+                <li>
+                   <a href="#Previous-Work">Previous Work</a>
+                </li>
+                <li>
+                    <a href="#Contact-Me">Contact-Me</a>
+                </li>
             </ul>
         </div>
     </header>
-
+    
+    <div class="Hero"> 
+        <img scr="./assets/photos/selfie.jpg" class="float left"/>
+    </div>
+    
     <section>
-       <div class="box style">
+       <div id="About-Me">
          <h2>About Me</h2>
-            <p>me life story ig</p>
+            <p>Hello, my name iS Kelly Boothe im new to the developer scene
+                but learing alot and cant wait to get on the job! I am currently
+                 enrolled in Georgia Tech's online coding bootcamp which i feel like
+                  is a amazing start to my deveoper carrer.</p>
        </div>
     </section>
 
     <section>
-       <div class="box style">
+       <div id="Previous-Work">
          <h2>Previous Work</h2>
             <ul>
                 <li><img scr="./assets/photos/prework-study-guide.png" alt="example 1" /> </li>
@@ -42,8 +54,8 @@
 
     </section>
 
-    <section>
-       <div class="small box">
+    <nav>
+       <div id="Contact-Me">
          <h2>Contact Me</h2>
              <ul>
                  <li><strong>Email</strong> <a href="#kellygageboothe@gmail.com">kellygageboothe@gmail.com</a> </li>
@@ -51,7 +63,7 @@
                  <li><strong>linkin</strong> <a href="example">example</a></li>
             </ul>
        </div>
-    </section>
+    </nav>
 
 
 </body>

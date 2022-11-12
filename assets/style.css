@@ -18,7 +18,7 @@
 }
 
 .header div ul {
-    list-style-type: horiz;
+    list-style-type: none;
 }
 
 .header div ul li {
@@ -27,10 +27,7 @@
 }
 
 .hero {
-    height: 100px;
-    width: 20%;
-    background-image: url("../assets/photos/selfie.jpg");
-    background-position: center;
+    min-height: 200px;
 }
 
 section {
@@ -39,10 +36,6 @@ section {
     margin: 0px auto;
     border-bottom: 5px; color: #999900;
     background-color: black;
-}
-
-.box-style {
-    padding: 20px;
 }
 
 h2 {
@@ -56,5 +49,14 @@ section div ul li {
 
 section p {
     text-align: center;
+    font-size: 20px;
 }
 
+nav {
+    height: 90%;
+    width: 500px;
+    margin: 0px auto;
+    background-color: black;
+    border-bottom: 5px; color: #999900;
+    text-align: center;
+}
